@@ -1,0 +1,336 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%
+	color:black;
+	background-image: url("img.jpg");
+	width: 100%px;
+	height: 600px;
+	background-repeat:round;
+	background-attachment: fixed;
+	
+}	
+
+nav{
+	
+	border:3px solid beige ;
+	padding-top: 0px;
+	margin-left: 0px;
+	width: 100%;
+	height: 75px;
+	background-image: url("images (1).jpg");
+
+
+	
+}
+	
+
+
+
+nav .logo a{
+	color: black;
+	font-weight:800px; 
+	font-size: 50px;
+	font-family:'code source pro' ,calibri ,serif;
+	text-align: center;
+}
+nav .logo span{
+	color: black;
+	font-weight:800px; 
+	font-size: 50px;
+	font-family:'code source pro' ,calibri ,serif;
+	text-align: center;
+
+}
+nav > ul{
+	margin: 20 auto px;
+	padding: 0px;
+	width: 100%;
+
+}
+nav > ul:after{
+	content::""
+	display:block;
+	clear: both;
+}
+nav > ul >li{
+	float: left;
+	position: relative;
+	align-content: right;
+	padding-top: 0px;
+	margin-left: 160px;
+}
+nav > ul > li a{
+	padding: 0px 0px;
+	color:beige;
+}
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+nav > li{
+	list-style-type: none;
+}
+.submenu{
+	display: none;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+}
+.submenu li a{
+	padding:15px 30px; 
+	font-size:13px;
+	color:#222538;
+	width: 270px;
+}
+.menu-exam:hover{
+	border-top: 5px solid black;
+	background-color: pink;
+}
+.menu-Décoration:hover{
+	border-top: 5px solid black;
+	background-color: rgb(228,77,38,0.15);
+}
+.menu-Gastronomie:hover{
+	border-top: 5px solid black;
+	background-color: rgb(000,112,192,0.15);
+	}
+	.menu-Animation:hover{
+	border-top: 5px solid black;
+	background-color: rgb(241,211,79,0.15);
+	}
+	.menu-Sécurité:hover{
+	border-top: 5px solid black;
+	background-color: rgb(220,220,220,0.15);
+	}
+	.menu-A propos:hover{
+	border-top: 5px solid black;
+	background-color: rgb(210,210,210,0.15);
+}
+.menu-Décoration .submenu{
+	background-color: rgb(230,100,40);
+}
+.menu-Gastronomie .submenu{
+	background-color: rgb(000,160,240);
+}
+.menu-Animation .submenu{
+	background-color:rgb(250,215,100);
+}
+.menu-Sécurité .submenu{
+	background-color: black;
+}
+.menu-A propos .submenu{
+	background-color: pink;
+}
+.submenu li:hover a{
+	color: #eee;
+	font-weight: bold;
+}
+.menu-Décoration .submenu li:hover{
+	background-color: rgb(210,77,60);
+}
+.menu-Gastronomie .submenu li:hover{
+	background-color:rgb(000,115,200);
+}
+.menu-Animation .submenu li:hover{
+	background-color:rgb(200,175,65);
+}
+.menu-Sécurité .submenu li:hover{
+	background-color: gray;
+}
+.menu-A propos .submenu li:hover{
+	background-color: red;
+}
+.home{
+	height: 200px;
+	text-align: center;
+	padding-top:200px;
+	
+}
+.home .home-conent{
+	color: black;
+	text-align:center;
+	padding-top: 20px;
+
+}
+.home .home-content .text-1{
+
+font-weight: 600px;
+	font-size: 70px;
+	color: pink;
+
+}
+.home .home-content .text-1:hover{
+	color: black;
+}
+.home .home-content .text-2{
+	font-size: 40px;
+	font-weight: 600px;
+	color: pink;
+}
+.home .home-content .text-2:hover{
+	color:black;
+}
+
+
+}
+.cv{
+	width: 45%;
+	text-align: justify-content;
+	text-align: left;
+	margin-bottom: 5px;
+	display: flex;
+	flex-wrap: wrap;
+}
+ .cv p{
+
+	color: white;
+	font-weight: 150px;
+	font-size: 30px;
+	border:3px solid black;
+	border-radius: 20px;
+	background-color: black;
+	
+}
+.cv p:hover{
+	color: black;
+	background-color:pink;
+}
+
+.serv .serv-1 p{
+	font-size: 50px;
+	font-weight: 500px;
+	padding-top: 60px;
+	color: white;
+	text-decoration: underline;
+}
+.serv .serv-1 a{
+	font-size: 40px;
+	font-weight: 400px;
+	text-decoration:none;
+	color:beige;
+}
+.serv .serv-2{
+	text-align: left;
+}
+.serv .serv-2 .d1{
+	height: 100%;
+	width:100%;
+	margin:100px auto;
+	box-shadow:15px 10px 15px -5px #777;
+	background-color:#ededed;
+	background-repeat: round;
+	background-size:contain;
+	animation: fondu 10s ease-in-out infinite both;
+
+}
+
+.serv .serv-2 .conteneur{
+	max-width:700px; 
+	margin:50px auto;
+
+}
+.serv .serv-2 .d2{
+	width: 50%;
+	height: 100%;
+	padding-top: 35%;
+	margin: 100px auto;
+	box-shadow: 0px 0px 10px #777;
+	background-color: #ededed;
+	background-size: contain;
+	animation: fondu 10s ease-in-out infinite both;
+	background-repeat: no-repeat;
+	border-radius: 15%;
+}
+@keyframes fondu{
+	0%{background-image: url("bff.jpg");}
+	20%{background-image: url("images.jpg");}
+	25%{background-image: url("bf.jpg");}
+	%{background-image: url("be.jpg");}
+	100%{background-image: url("gift.jpg");}
+}
+.serv .serv-2 .d1:hover .d2:hover{
+	animation-play-state: paused;
+}
+
+
+.pre{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 60px;
+}
+.pre .left p{
+	font-weight: 350px;
+	font-size: 40px;
+	margin-left: 15%;
+	color: white;
+	text-decoration: underline;
+}
+.pre .left{
+	width: 45%;
+	border:2px solid gray;
+	font-size: 30px;
+	font-weight: 250px;
+	background-color: black;
+	color: white;
+}
+.pre .right{
+
+	text-align:right;
+	border:2px solid gray;
+	background-color: black;
+	color: white;
+}
+.pre .right a{
+	text-align: center;
+}
+.pre .right img{
+	border-radius: 80%;
+	width: 100px;
+	height: 55px;
+	 -webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+     -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+     transition: all 0.2s;
+
+    
+}
+img:hover {
+     border : 2px solid #000000;
+     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+.container-img{
+     display:block;
+     overflow:hidden;
+     border:1px solid #000;
+}
+.container-img img{
+     width:500px;
+     height:300px;
+     -webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+     -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+     transition: all 0.2s;
+}
+.container-img:hover img{
+     transform:scale(1.2);
+}
+.ff{
+	font-size: 30px;
+	align-content: center;
+	color:pink;
+
+
+}
